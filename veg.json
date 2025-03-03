@@ -10,7 +10,7 @@
     "description": "Succulent cubes of paneer marinated in aromatic spices and grilled to perfection. A classic vegetarian delight.",
     "category": "North Indian",
     "veg": true,
-    "startTime": 18,
+    "startTime": 12,
     "endTime": 23
   },
   {
@@ -36,8 +36,8 @@
     "description": "Fragrant basmati rice cooked with mixed vegetables and aromatic spices. A festive one-pot meal.",
     "category": "South Indian",
     "veg": true,
-    "startTime": 7,
-    "endTime": 12
+    "startTime": 17,
+    "endTime": 24
   },
   {
     "id": "1004",
@@ -49,8 +49,8 @@
     "description": "Layers of pasta, mixed vegetables, and cheese baked to golden perfection. A comforting Italian-inspired dish.",
     "category": "Italian",
     "veg": true,
-    "startTime": 7,
-    "endTime": 15
+    "startTime": 17,
+    "endTime": 24
   },
   {
     "id": "1005",
@@ -62,8 +62,8 @@
     "description": "Crispy vegetable dumplings tossed in a tangy and spicy sauce. An Indo-Chinese favorite.",
     "category": "Chinese",
     "veg": true,
-    "startTime": 7,
-    "endTime": 15
+    "startTime": 12,
+    "endTime": 19
   },
   {
     "id": "1006",

@@ -48,11 +48,18 @@
             <!-- Initial row (before menu expands) -->
             <div class="footer-container" id="footer-main">
                 <button id="toggle-nav">Menu</button>
-                <div class="placeorder" onclick="shareOnWhatsApp('')" aria-label="Share on WhatsApp">
-                    Send Order</div>
-                <div class="location" onclick="sendLocationOnWhatsApp()" aria-label="Share on WhatsApp">Send Location
-                </div>
-                <a class="cta-button" href="#">Call</a>
+                <button class="placeorder" onclick="shareOnWhatsApp('')" aria-label="Share on WhatsApp">
+                    Send Order
+                </button>
+                
+                <button class="location" onclick="sendLocationOnWhatsApp()" aria-label="Share on WhatsApp">
+                    Send Location
+                </button>
+                
+                <button class="cta-button" onclick="window.location.href='tel:+1234567890'">
+                    Call
+                </button>
+                
             </div>
             <span class="footer-text">Teyzee Menus! <a class="link" href="https://www.ariaprohotels.com/qr-code-menu/">-
                     by AriaProHotels.com</a></span>
@@ -251,7 +258,7 @@
     }       
     function updateTheme() {
     const currentHour = new Date().getHours();
-    const isLightMode = currentHour >= 7 && currentHour < 12; // 7 AM to 7 PM
+    const isLightMode = currentHour >= 7 && currentHour < 19; // 7 AM to 7 PM
 
     document.body.classList.toggle("light-mode", isLightMode);
     document.body.classList.toggle("dark-mode", !isLightMode);
